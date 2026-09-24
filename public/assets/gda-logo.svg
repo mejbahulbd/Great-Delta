@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" fill="none">
+  <defs>
+    <!-- Primary Shimmering Gold Gradient -->
+    <linearGradient id="svgGoldPrimary" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#FFF3B0" />
+      <stop offset="25%" stop-color="#FCD34D" />
+      <stop offset="55%" stop-color="#F59E0B" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <!-- Deep Metallic Gold -->
+    <linearGradient id="svgGoldDeep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="40%" stop-color="#D97706" />
+      <stop offset="85%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+
+    <!-- Highlight Gradient -->
+    <linearGradient id="svgGoldHighlight" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#FEF08A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Radiant Feather Gradient -->
+    <linearGradient id="svgGoldFeather" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#FEF9C3" />
+      <stop offset="30%" stop-color="#FDE047" />
+      <stop offset="70%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Golden Emblem Container with subtle luxury badge background -->
+  <g transform="translate(10, 5)">
+    <!-- Elegant Dark Blue/Navy Pill for maximum contrast & royal presence -->
+    <rect x="0" y="2" width="86" height="86" rx="20" fill="#07182E" stroke="url(#svgGoldPrimary)" stroke-width="1.5" />
+    
+    <!-- Golden Soaring Bird Graphic Scaled to fit badge -->
+    <g transform="translate(4, 2) scale(0.65)">
+      <!-- Back Wing -->
+      <path d="M 52 38 C 54 26, 62 16, 74 12 C 77 11, 78 13, 76 15 C 68 23, 62 34, 58 45 Z" fill="url(#svgGoldDeep)" />
+      <path d="M 48 42 C 48 32, 54 22, 65 17 C 68 16, 69 18, 67 20 C 58 29, 53 38, 52 48 Z" fill="url(#svgGoldDeep)" />
+      <path d="M 44 48 C 42 39, 47 30, 56 25 C 58 24, 59 26, 58 28 C 50 36, 47 44, 46 52 Z" fill="url(#svgGoldDeep)" />
+
+      <!-- Main Wing Feathers -->
+      <path d="M 52 46 C 46 34, 38 20, 24 10 C 22 8, 25 6, 28 8 C 42 16, 52 30, 58 44 Z" fill="url(#svgGoldHighlight)" />
+      <path d="M 50 48 C 44 35, 36 22, 25 12 C 22 9, 25 8, 28 10 C 44 20, 54 35, 59 47 Z" fill="url(#svgGoldPrimary)" />
+      <path d="M 46 51 C 38 40, 28 28, 15 20 C 13 18, 15 16, 18 18 C 32 26, 42 41, 48 53 Z" fill="url(#svgGoldFeather)" />
+      <path d="M 43 55 C 33 46, 22 36, 9 30 C 7 28, 9 26, 12 28 C 26 35, 36 48, 44 58 Z" fill="url(#svgGoldPrimary)" />
+      <path d="M 41 60 C 30 52, 19 44, 7 40 C 5 38, 6 36, 9 38 C 22 43, 32 54, 40 64 Z" fill="url(#svgGoldFeather)" />
+      <path d="M 40 66 C 30 60, 20 54, 8 52 C 6 51, 7 49, 10 50 C 21 54, 31 63, 38 70 Z" fill="url(#svgGoldDeep)" />
+
+      <!-- Long Slender Beak -->
+      <path d="M 76 39 L 112 23 C 114 22, 114 23, 112 24 L 78 43 Z" fill="url(#svgGoldHighlight)" />
+      <path d="M 74 38 L 112 23 C 114 22, 113 24, 110 25 L 76 43 Z" fill="url(#svgGoldPrimary)" />
+
+      <!-- Head, Eye, Torso -->
+      <path d="M 64 35 C 70 34, 76 36, 78 40 C 80 44, 76 49, 73 53 C 68 60, 63 68, 57 76 C 53 82, 48 86, 43 89 C 41 90, 40 88, 41 86 C 45 78, 47 70, 48 62 C 49 54, 52 46, 58 40 C 60 37, 62 35, 64 35 Z" fill="url(#svgGoldPrimary)" />
+      <circle cx="72" cy="39" r="1.5" fill="#78350F" />
+      <circle cx="72" cy="39" r="0.7" fill="#FEF08A" />
+      <path d="M 74 42 C 76 45, 74 49, 71 54 C 66 61, 60 70, 54 77 C 52 79, 50 81, 48 83 C 49 76, 52 68, 56 60 C 60 52, 66 45, 74 42 Z" fill="url(#svgGoldHighlight)" />
+
+      <!-- Tail Streamers -->
+      <path d="M 43 88 C 40 94, 34 103, 26 112 C 24 114, 23 113, 24 111 C 29 101, 35 93, 40 85 Z" fill="url(#svgGoldPrimary)" />
+      <path d="M 45 87 C 42 96, 36 106, 29 116 C 27 118, 26 117, 27 115 C 33 103, 40 93, 44 84 Z" fill="url(#svgGoldFeather)" />
+      <path d="M 46 86 C 44 94, 40 102, 35 110 C 33 112, 32 111, 33 109 C 38 100, 43 92, 45 83 Z" fill="url(#svgGoldDeep)" />
+      
+      <!-- Sparkle -->
+      <polygon points="108,18 110,21 113,21 111,23 112,26 109,24 107,26 108,23 105,21 108,21" fill="#FEF08A" />
+    </g>
+  </g>
+
+  <!-- Typography with Gold & Navy luxury styling -->
+  <g transform="translate(112, 0)">
+    <text x="0" y="47" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="27" fill="#071D38" letter-spacing="-0.5">
+      GREAT DELTA AIR
+    </text>
+    <text x="2" y="73" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="13" fill="#D97706" letter-spacing="4">
+      LIMITED
+    </text>
+    <circle cx="98" cy="69" r="2.5" fill="#CBD5E1" />
+    <text x="110" y="73" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="11.5" fill="#64748B" letter-spacing="2">
+      CARGO AIRLINE
+    </text>
+  </g>
+</svg>

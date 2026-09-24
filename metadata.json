@@ -1,0 +1,6 @@
+{
+  "name": "Great Delta Air - International Cargo Airline",
+  "description": "Connecting Bangladesh to Global Trade Corridors with reliable air freight and logistics connectivity across South Asia, Middle East, Asia, Europe, and Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
